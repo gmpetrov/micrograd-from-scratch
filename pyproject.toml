@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "micrograd-from-scratch"
+version = "0.1.0"
+description = ""
+authors = ["Georges Petrov <georgesm.petrov@gmail.com>"]
+readme = "README.md"
+packages = [{include = "micrograd_from_scratch"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+matplotlib = "^3.6.3"
+numpy = "^1.24.1"
+graphviz = "^0.20.1"
+torch = "^1.13.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.20.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
